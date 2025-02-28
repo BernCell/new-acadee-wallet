@@ -16,8 +16,9 @@ const wallet = Wallet.fromPhrase(secretPhrase)
 
 console.log({ wallet });
 
-// Pour récupérer la privatekey
-// console.log("Clé privée :", wallet.privateKey);
+
+//3- Pour récupérer la privatekey
+console.log("Clé privée :", wallet.privateKey);
 
 //Pour récupérer le compte par la privatekey
 
