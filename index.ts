@@ -1,19 +1,20 @@
 
 import { HDNodeWallet, Wallet } from "ethers";
 
-// const secretPhrase = "chuckle library brisk border urge better rent enhance quiz pole pool advance"
+//2
+const secretPhrase = "chuckle library brisk border urge better rent enhance quiz pole pool advance"
 
 //1
-const hdWallet = Wallet.createRandom();
+// const hdWallet = Wallet.createRandom();
 
-console.log({ hdWallet });
+// console.log({ hdWallet });
 
 //fin 1
 
-//Pour récupérer le compte par la phrase secrète
-// const wallet = Wallet.fromPhrase(secretPhrase)
+//2-Pour récupérer le compte par la phrase secrète
+const wallet = Wallet.fromPhrase(secretPhrase)
 
-// console.log({ wallet });
+console.log({ wallet });
 
 // Pour récupérer la privatekey
 // console.log("Clé privée :", wallet.privateKey);
