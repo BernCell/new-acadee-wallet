@@ -1,11 +1,14 @@
 
 import { HDNodeWallet, Wallet } from "ethers";
 
-const secretPhrase = "hobby bronze credit matter great soul dragon enter scrap enemy pair gauge"
+// const secretPhrase = "chuckle library brisk border urge better rent enhance quiz pole pool advance"
 
-// const hdWallet = Wallet.createRandom();
+//1
+const hdWallet = Wallet.createRandom();
 
-// console.log({ hdWallet });
+console.log({ hdWallet });
+
+//fin 1
 
 //Pour récupérer le compte par la phrase secrète
 // const wallet = Wallet.fromPhrase(secretPhrase)
@@ -27,10 +30,10 @@ const secretPhrase = "hobby bronze credit matter great soul dragon enter scrap e
 
 
 // Créer un compte enfant
-const wallet = HDNodeWallet.fromPhrase(secretPhrase)
+// const wallet = HDNodeWallet.fromPhrase(secretPhrase)
 
-const child = wallet.deriveChild(0)
-const child2 = wallet.deriveChild(1)
+// const child = wallet.deriveChild(0)
+// const child2 = wallet.deriveChild(1)
 
-console.log(child);
-console.log(child2);
+// console.log(child);
+// console.log(child2);
