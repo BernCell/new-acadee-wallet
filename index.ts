@@ -37,8 +37,10 @@ const wallet = HDNodeWallet.fromPhrase(secretPhrase)
 const child = wallet.deriveChild(0)
 const child2 = wallet.deriveChild(1)
 const child3 = wallet.deriveChild(2)
+const child4 = wallet.deriveChild(3)
 
 console.log(child);
 console.log(child2);
 console.log(child3);
+console.log(child4);
 
