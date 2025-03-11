@@ -35,16 +35,17 @@ const secretPhrase = "chuckle library brisk border urge better rent enhance quiz
 //5- Créer un compte enfant
 const wallet = HDNodeWallet.fromPhrase(secretPhrase)
 
-const child = wallet.deriveChild(0)
-const child2 = wallet.deriveChild(1)
-const child3 = wallet.deriveChild(2)
-const child4 = wallet.deriveChild(3)
-const child5 = wallet.deriveChild(4)
-const child6 = wallet.deriveChild(5)
-const child7 = wallet.deriveChild(6)
-const child8 = wallet.deriveChild(7)
-const child9 = wallet.deriveChild(8)
-const child10 = wallet.deriveChild(9)
+const child = wallet.deriveChild(0);
+const child2 = wallet.deriveChild(1);
+const child3 = wallet.deriveChild(2);
+const child4 = wallet.deriveChild(3);
+const child5 = wallet.deriveChild(4);
+const child6 = wallet.deriveChild(5);
+const child7 = wallet.deriveChild(6);
+const child8 = wallet.deriveChild(7);
+const child9 = wallet.deriveChild(8);
+const child10 = wallet.deriveChild(9);
+const child11 = wallet.deriveChild(10);
 
 console.log(child);
 console.log(child2);
@@ -56,6 +57,7 @@ console.log(child7);
 console.log(child8);
 console.log(child9);
 console.log(child10);
+console.log(child11);
 
 
 
