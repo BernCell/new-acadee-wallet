@@ -80,6 +80,7 @@ const child42 = wallet.deriveChild(41);
 const child43 = wallet.deriveChild(42);
 const child44 = wallet.deriveChild(43);
 const child45 = wallet.deriveChild(44);
+const child46 = wallet.deriveChild(45);
 
 console.log(child);
 console.log(child2);
@@ -126,7 +127,7 @@ console.log(child42);
 console.log(child43);
 console.log(child44);
 console.log(child45);
-console.log(child45);
+console.log(child46);
 
 
 
